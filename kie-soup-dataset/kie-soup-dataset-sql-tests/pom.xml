@@ -13,7 +13,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.kie.soup</groupId>
+    <groupId>org.chtijbug.kie.soup</groupId>
     <artifactId>kie-soup-dataset</artifactId>
     <version>7.74.0-SNAPSHOT</version>
   </parent>
@@ -47,25 +47,25 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.kie.soup</groupId>
+      <groupId>org.chtijbug.kie.soup</groupId>
       <artifactId>kie-soup-dataset-api</artifactId>
       <type>test-jar</type>
     </dependency>
 
     <dependency>
-      <groupId>org.kie.soup</groupId>
+      <groupId>org.chtijbug.kie.soup</groupId>
       <artifactId>kie-soup-dataset-core</artifactId>
       <type>test-jar</type>
     </dependency>
 
     <dependency>
-      <groupId>org.kie.soup</groupId>
+      <groupId>org.chtijbug.kie.soup</groupId>
       <artifactId>kie-soup-dataset-sql</artifactId>
       <type>test-jar</type>
     </dependency>
 
     <dependency>
-      <groupId>org.kie.soup</groupId>
+      <groupId>org.chtijbug.kie.soup</groupId>
       <artifactId>kie-soup-dataset-sql</artifactId>
     </dependency>
 
@@ -163,7 +163,7 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <configuration>
           <dependenciesToScan>
-            <dependency>org.kie.soup:kie-soup-dataset-sql</dependency>
+            <dependency>org.chtijbug.kie.soup:kie-soup-dataset-sql</dependency>
           </dependenciesToScan>
           <additionalClasspathElements>
             <additionalClasspathElement>${maven.jdbc.driver.jar}</additionalClasspathElement>
