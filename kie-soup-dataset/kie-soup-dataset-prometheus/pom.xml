@@ -22,7 +22,9 @@
   <packaging>jar</packaging>
 
   <name>KIE Soup Dataset Prometheus Provider</name>
-
+  <properties>
+    <java.module.name>org.kie.soup.dataset.prometheus</java.module.name>
+  </properties>
   <dependencies>
 
     <dependency>

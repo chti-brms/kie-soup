@@ -28,7 +28,9 @@
 
   <name>KIE Soup Dataset API</name>
   <description>KIE Soup Dataset API shared between client and server.</description>
-
+  <properties>
+    <java.module.name>org.kie.soup.dataset.api</java.module.name>
+  </properties>
   <dependencies>
 
     <dependency>

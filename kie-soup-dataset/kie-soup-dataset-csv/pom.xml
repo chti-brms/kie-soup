@@ -27,7 +27,9 @@
   <packaging>jar</packaging>
 
   <name>KIE Soup Dataset CSV Provider</name>
-
+  <properties>
+    <java.module.name>org.kie.soup.dataset.csv</java.module.name>
+  </properties>
   <dependencies>
 
     <dependency>

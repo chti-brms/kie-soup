@@ -28,7 +28,9 @@
   <packaging>jar</packaging>
 
   <name>KIE Soup Dataset Kafka Provider</name>
-
+  <properties>
+    <java.module.name>org.kie.soup.dataset.kafka</java.module.name>
+  </properties>
   <dependencies>
 
     <dependency>

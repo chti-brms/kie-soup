@@ -27,7 +27,9 @@
   <packaging>jar</packaging>
 
   <name>KIE Soup Dataset SQL Provider</name>
-
+  <properties>
+    <java.module.name>org.kie.soup.dataset.sql</java.module.name>
+  </properties>
   <dependencies>
 
     <dependency>

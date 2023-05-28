@@ -25,7 +25,9 @@
 
   <artifactId>kie-soup-json</artifactId>
   <packaging>jar</packaging>
-
+  <properties>
+    <java.module.name>org.kie.soup.dataset.json</java.module.name>
+  </properties>
   <name>KIE Soup JSON Module</name>
   <description>KIE Soup JSON utility library shared between client and server.</description>
 

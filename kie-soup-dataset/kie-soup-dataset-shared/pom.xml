@@ -28,7 +28,9 @@
 
   <name>KIE Soup Dataset Shared</name>
   <description>KIE Soup Dataset implementation shared between client and server.</description>
-
+  <properties>
+    <java.module.name>org.kie.soup.dataset.shared</java.module.name>
+  </properties>
   <dependencies>
 
     <dependency>
